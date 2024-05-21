@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #202020;
+}
+
+/* header code start here */
+
+nav {
+    background-color: #eee;
+    display: flex;
+    padding: 15px 100px;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-left {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    margin-left: 60px;
+}
+
+.nav-img img{
+    height: 35px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    /* color: #333; */
+    display: inline-block;
+    font-weight: bold;
+}
+
+ul li {
+    margin-left: 30px;
+}
+
+.nav-bell {
+    margin-left: 30px;
+}
+
+
+/* header code end here */
+
+
+/* main code start here */
+
+/* content welcome */
+
+.content-welcome {
+    width: 100%;
+    /* height: 400px; */
+    background-color: #005085;
+    display: flex;
+}
+
+.cover {
+    width: 94%;
+    height: 280px;
+    margin: 100px auto 20px auto;
+    align-items: center;
+    padding: 20px;
+}
+
+.text p {
+    color: #eee;
+    margin-bottom: 10px;
+}
+
+.text-main {
+    font-size: 30px;
+}
+
+.text-box {
+    width: 100%;
+    height: 160px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.sl {
+    padding-bottom: 15px;
+    font-weight: bold;
+
+}
+
+.sl-box {
+    width: 100%;
+    height: 80px;
+    background-color: #eee;
+    align-items: center;
+    display: flex;
+    padding: 0 30px;
+    border-radius: 4px;
+    border: 1px solid #6b6b6b;
+}
+
+.sl-box .sl-left {
+    display: flex;
+    align-items: center;
+}
+
+.sl-box .sl-left p {
+    margin-left: 10px;
+}
+
+button {
+    margin-left: auto;
+    /* width: 80px; */
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2b2b2b;
+    color: #eee;
+    font-weight: bold;
+}
+
+/* content info */
+
+.aktifitas {
+    /* height: 700px; */
+    background-color: #e6e6e6;
+    display: flex;
+    padding: 40px 40px;
+    justify-content: space-between;
+}
+
+.belajar, .lain {
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #b3b3b3;
+}
+
+.belajar {
+    width: 50%;
+    background-color: #eee;
+}
+
+.lain {
+    width: 50%;
+    background-color: #eee;
+}
+
+/* aktifitas code here */
+
+.b-title, .l-title {
+    align-items: center;
+    display: flex;
+    background-color: #eee;
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.b-content, .l-content {
+    padding: 20px;
+}
+
+.belajar span, .lain span {
+    margin-right: 10px;
+}
+
+/* content code here */
+
+.materi {
+    margin-bottom: 15px;
+    background-color: #e2e2e2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.m-judul, .m-isi {
+    padding: 5px;
+}
+
+.m-right a {
+    color: blue;
+}
+
+.m-judul {
+    font-weight: bold;
+}
+
+.nxt {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.kegiatan {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+    border-radius: 5px;
+}
+
+.l-content p {
+    margin-bottom: 3px;
+}
+
+/* .k-event, .k-challenge {
+    padding: 25px 88px 25px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.k-event, .k-challenge {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+}
+.k-event {
+    margin-right: 7px;
+}
+.k-challenge {
+    margin-left: 7px;
+}
+
+.k-event span, .k-challenge span {
+    margin-bottom: 10px;
+}
+
+.k-event, .k-challenge {
+    background-color: #e2e2e2;
+}
+
+.k-daftar {
+    background-color: #e2e2e2;
+    margin-bottom: 10px;
+    padding: 25px 88px 25px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* footer code here */
+
+.f-container {
+    border-top: 1px solid #b3b3b3;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 60px 40px;
+    font-size: 14px;
+}
+
+.f-kiri {
+    display: flex;
+}
+
+.f-pt {
+    padding-left: 5px;
+}
+
+.f-copy {
+    border-right: 1px solid #333;
+    padding-right: 5px;
+}
+
+.f-kanan {
+    display: flex;
+}
+
+.f-kanan a {
+    text-decoration: none;
+    color: blue;
+}
+
+.terms {
+    padding-right: 15px;
+
+}
+
+
+/* css clear code here */
+
+/* float cleaner */
+/* .cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf:after {
+    clear: both;
+} */
